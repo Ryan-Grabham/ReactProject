@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap');
+
+
 .App {
   text-align: center;
+
   }
 
 .App-logo {
@@ -26,6 +30,7 @@
 
 body{
   background-color: #EDE0D4;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .App-link {
@@ -33,6 +38,10 @@ body{
 }
 
 .navbar{
+  background-color: #7F5539;
+}
+
+.indexCard{
   background-color: #7F5539;
 }
 
