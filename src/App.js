@@ -2,7 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+
 import HomeScreen from './Screens/HomeScreen';
+import AddProductScreen from './Screens/AddProductScreen';
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
       <Header />
       <Routes>
         <Route exact path="/" element={<HomeScreen/>} />
+        <Route exact path = "/admin/addproduct" element={<AddProductScreen/>}/>
       </Routes>
 
 </Router>
