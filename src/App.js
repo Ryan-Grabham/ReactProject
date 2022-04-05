@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './Components/Header';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
+import Header from './Components/Header';
 import HomeScreen from './Screens/HomeScreen';
 import AddProductScreen from './Screens/AddProductScreen';
 
