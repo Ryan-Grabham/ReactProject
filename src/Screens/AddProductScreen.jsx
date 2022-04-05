@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, {useState, useEffect} from 'react';
 import FormContainer from '../Components/FormContainer';
-import { Form, Button } from 'react-bootstrap'
-import { createBrowserHistory } from 'history';
-
+import {Form, Button} from 'react-bootstrap'
+import Loader from '../Components/Loader'
 
 
 function AddProductScreen() {
