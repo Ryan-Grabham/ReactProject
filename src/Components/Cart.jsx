@@ -17,7 +17,7 @@ function Cart() {
 
     return (
         <>
-        <Button variant="primary" className="m-2">Basket <b>{ count }</b></Button>
+        <Button variant="" className="navText m-2">Basket <b>{ count }</b></Button>
         </>
     )
 }

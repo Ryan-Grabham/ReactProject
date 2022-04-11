@@ -45,7 +45,7 @@ export default function RegisterScreen() {
             <Form>
 
                 <Form.Group className="mb-3" controlId="fname">
-                    <Form.Label>Email</Form.Label>
+                    <Form.Label>Firstname</Form.Label>
                     <Form.Control 
                         type="fname" 
                         placeholder="Firstname..." 
@@ -55,7 +55,7 @@ export default function RegisterScreen() {
 
 
                 <Form.Group className="mb-3" controlId="sname">
-                    <Form.Label>Email</Form.Label>
+                    <Form.Label>Surname</Form.Label>
                     <Form.Control 
                         type="sname" 
                         placeholder="Sname..." 

@@ -43,6 +43,11 @@ body{
 
 .indexCard{
   background-color: #7F5539;
+  color: #EDE0D4;
+}
+
+.navText{
+  color: #EDE0D4
 }
 
 @keyframes App-logo-spin {

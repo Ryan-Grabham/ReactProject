@@ -33,7 +33,7 @@ function App() {
             <Route exact path="/" element={<HomeScreen/>} />
             <Route exact path ="/products" element={<ProductScreen/>}/>
             <Route exact path ="/products/:id" element={<SingleProductScreen/>}/>
-            <Route exact path ="/locations" element={<LocationsScreen/>}/>
+            <Route exact path ="/location" element={<LocationsScreen/>}/>
             <Route exact path ="/about" element={<AboutScreen/>}/>
             <Route exact path ="/contact" element={<ContactScreen/>}/>
             <Route exact path ="/register" element={<RegisterScreen/>}/>
@@ -42,9 +42,8 @@ function App() {
             <Route exact path = "/admin/manageproducts" element={<ManageProductsScreen/>}/>
             <Route exact path = "/admin/product/edit/:id" element={<EditProductScreen/>}/>
           </Routes>
-     
       </Router>
-   </div>
+    </div>
   );
 }
 
